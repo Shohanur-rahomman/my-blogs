@@ -1,0 +1,58 @@
+[
+  {
+    "id": 1,
+    "title": "The Future of JavaScript",
+    "author": "John Doe",
+    "author_img": "https://i.ibb.co.com/j95XPLHv/2.png",
+    "img": "https://i.ibb.co.com/MyLPYZCV/girl1.jpg",
+    "post_date": "2025-04-01",
+    "publish_date": "2025-04-01",
+    "reading_time":5 ,
+    "hashtags": ["#JavaScript", "#WebDevelopment", "#Coding"]
+  },
+  {
+    "id": 2,
+    "title": "Mastering React in 2025",
+    "author": "Jane Smith",
+    "author_img": "https://i.ibb.co.com/Z0mKjXC/1.jpg",
+    "img": "https://i.ibb.co.com/MyLPYZCV/girl1.jpg",
+    "post_date": "2025-03-28",
+    "publish_date": "2025-03-28",
+    "reading_time": 8,
+    "hashtags": ["#React", "#Frontend", "#UI"]
+  },
+  {
+    "id": 3,
+    "title": "Node.js Performance Optimization",
+    "author": "Alex Johnson",
+    "author_img": "https://i.ibb.co.com/vxXY2X8H/3.png",
+    "img": "https://i.ibb.co.com/MyLPYZCV/girl1.jpg",
+    "post_date": "2025-03-30",
+    "publish_date": "2025-03-30",
+    "reading_time": 10,
+    "hashtags": ["#NodeJS", "#Backend", "#Performance"]
+  },
+  {
+    "id": 4,
+    "title": "CSS Grid vs Flexbox: Which One to Use?",
+    "author": "Emily Brown",
+    "author_img": "https://i.ibb.co.com/FbxJT1KR/4.jpg",
+    "img": "https://i.ibb.co.com/MyLPYZCV/girl1.jpg",
+    "post_date": "2025-04-02",
+    "publish_date": "2025-04-02",
+    "reading_time": 6,
+    "hashtags": ["#CSS", "#WebDesign", "#Frontend"]
+  },
+  {
+    "id": 5,
+    "title": "Building Scalable Web Apps with MERN",
+    "author": "Michael Lee",
+    "author_img": "https://i.ibb.co.com/Z0mKjXC/1.jpg",
+    "img": "https://i.ibb.co.com/MyLPYZCV/girl1.jpg",
+    "post_date": "2025-03-25",
+    "publish_date": "2025-03-25",
+    "reading_time": 12,
+    "hashtags": ["#MERN", "#FullStack", "#WebApps"]
+  }
+]
+
