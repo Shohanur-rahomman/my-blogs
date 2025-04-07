@@ -10,13 +10,19 @@ function App() {
   const [times, setTimes] = useState(0);
 
   const handleBookMark = (blog) => {
-    console.log(blog);
+  
     setBookmark([...bookmark,blog])
   }
 
-  const handleReadTime = (time) => {
+  const handleReadTime = (time, id) => {
+   
     const totalTime = times + time;
-    setTimes(totalTime)
+    setTimes(totalTime);
+    handleDelete(id)
+  }
+  const handleDelete = (id) => {
+    const remaining = bookmark.filter((book) => book.id !== id);
+    setBookmark(remaining);
   }
   
 
@@ -32,7 +38,7 @@ function App() {
           <h2 className='text-2xl font-bold'>Total Book Mark : {bookmark.length }</h2>
         <div>
           {
-            bookmark.map((book) => <p>{book.title }</p>)
+            bookmark.map((book,index) => <p key={index} className='bg-amber-200 p-4 m-4 rounded-lg'>{book.title }</p>)
           }
         </div>
         </div>

@@ -3,7 +3,7 @@ import { FaBookmark } from "react-icons/fa";
 
 const Blog = ({ blog, handleBookMark, handleReadTime }) => {
     
-    const { author, author_img, title, hashtags, img } = blog;
+    const { author, author_img, title, hashtags, img, reading_time,id } = blog;
     return (
         <div>
             <div className="card bg-base-100  shadow-sm">
@@ -28,7 +28,8 @@ const Blog = ({ blog, handleBookMark, handleReadTime }) => {
                         }
                     </div>
                     <div className="card-actions justify-end">
-                        <button onClick={() => handleReadTime(blog.reading_time)} className="btn btn-primary">Buy Now</button>
+                        <button onClick={() => handleReadTime(reading_time,id)} className="btn btn-primary">Reading Time</button>
+                       
                     </div>
                 </div>
             </div>
